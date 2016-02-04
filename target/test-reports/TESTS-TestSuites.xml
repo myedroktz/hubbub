@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites>
+  <testsuite errors="0" failures="0" hostname="MarcosNotebook" id="0" name="PostRestFunctionalSpec" package="com.grailsinaction" tests="3" time="3.453" timestamp="2016-02-01T15:35:28">
+      <properties />
+
+      <testcase classname="com.grailsinaction.PostRestFunctionalSpec" name="GET a list of posts as JSON" time="1.606" />
+
+      <testcase classname="com.grailsinaction.PostRestFunctionalSpec" name="GET a list of posts as XML" time="0.369" />
+
+      <testcase classname="com.grailsinaction.PostRestFunctionalSpec" name="POST a single post as JSON" time="1.475" />
+
+      <system-out><![CDATA[--Output from GET a list of posts as JSON--
+--Output from GET a list of posts as XML--
+--Output from POST a single post as JSON--
+]]></system-out>
+
+      <system-err><![CDATA[--Output from GET a list of posts as JSON--
+--Output from GET a list of posts as XML--
+--Output from POST a single post as JSON--
+]]></system-err>
+
+  </testsuite>
+</testsuites>

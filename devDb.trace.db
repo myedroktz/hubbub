@@ -1,0 +1,48 @@
+01-25 13:09:17 jdbc[11]: exception
+org.h2.jdbc.JdbcSQLException: Tabla "POST" no encontrada
+Table "POST" not found; SQL statement:
+alter table post drop constraint FK3498A03339FBA6 [42102-173]
+01-25 13:09:17 jdbc[11]: exception
+org.h2.jdbc.JdbcSQLException: Tabla "POST_TAGS" no encontrada
+Table "POST_TAGS" not found; SQL statement:
+alter table post_tags drop constraint FK7762B85824AB4F86 [42102-173]
+01-25 13:09:17 jdbc[11]: exception
+org.h2.jdbc.JdbcSQLException: Tabla "POST_TAGS" no encontrada
+Table "POST_TAGS" not found; SQL statement:
+alter table post_tags drop constraint FK7762B8583081882E [42102-173]
+01-25 13:09:17 jdbc[11]: exception
+org.h2.jdbc.JdbcSQLException: Tabla "PROFILE" no encontrada
+Table "PROFILE" not found; SQL statement:
+alter table profile drop constraint FKED8E89A93339FBA6 [42102-173]
+01-25 13:09:17 jdbc[11]: exception
+org.h2.jdbc.JdbcSQLException: Tabla "TAG" no encontrada
+Table "TAG" not found; SQL statement:
+alter table tag drop constraint FK1BF9A3339FBA6 [42102-173]
+01-25 13:09:17 jdbc[11]: exception
+org.h2.jdbc.JdbcSQLException: Tabla "USER_ROLE" no encontrada
+Table "USER_ROLE" not found; SQL statement:
+alter table user_role drop constraint FK143BF46A8E0F37C6 [42102-173]
+01-25 13:09:17 jdbc[11]: exception
+org.h2.jdbc.JdbcSQLException: Tabla "USER_ROLE" no encontrada
+Table "USER_ROLE" not found; SQL statement:
+alter table user_role drop constraint FK143BF46A3339FBA6 [42102-173]
+01-25 13:09:17 jdbc[11]: exception
+org.h2.jdbc.JdbcSQLException: Tabla "USER_USER" no encontrada
+Table "USER_USER" not found; SQL statement:
+alter table user_user drop constraint FK143D5FBF8FFB7714 [42102-173]
+01-25 13:09:17 jdbc[11]: exception
+org.h2.jdbc.JdbcSQLException: Tabla "USER_USER" no encontrada
+Table "USER_USER" not found; SQL statement:
+alter table user_user drop constraint FK143D5FBF3339FBA6 [42102-173]
+01-27 14:43:45 jdbc[11]: exception
+org.h2.jdbc.JdbcSQLException: Tabla "TWITTER_USER" no encontrada
+Table "TWITTER_USER" not found; SQL statement:
+alter table twitter_user drop constraint FKCCC78A173339FBA6 [42102-173]
+02-04 09:30:48 jdbc[11]: exception
+org.h2.jdbc.JdbcSQLException: Tabla "REPLY" no encontrada
+Table "REPLY" not found; SQL statement:
+alter table reply drop constraint FK67612EA40759547 [42102-173]
+02-04 09:30:48 jdbc[11]: exception
+org.h2.jdbc.JdbcSQLException: Tabla "REPLY" no encontrada
+Table "REPLY" not found; SQL statement:
+alter table reply drop constraint FK67612EA24AB4F86 [42102-173]
