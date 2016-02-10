@@ -186,3 +186,10 @@ grails.plugin.springsecurity.filterChain.chainMap = [
 grails.plugin.springsecurity.auth.loginFormUrl = "/login/form"
 grails.plugin.springsecurity.successHandler.defaultTargetUrl = "/timeline"
 
+
+//Turn on events in spring security plugin
+grails.plugins.springsecurity.useSecurityEventListener = true
+//Raises Platform core events
+grails.plugins.springsecurity.onAuthenticationSuccessEvent = { evt, appCtx ->
+    appCtx.grailsEvents.event 'security', 'onUserLogin' , evt
+}

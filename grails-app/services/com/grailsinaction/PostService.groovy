@@ -29,6 +29,7 @@ class PostService {
                 def targetUser = User.findByLoginId(m[0][1])
                 if(targetUser){
                     new Reply(post: post, inReplyTo: targetUser).save()
+                    event 'onNewPost', post //Raises new event
                     return post
                 }
                 else{
