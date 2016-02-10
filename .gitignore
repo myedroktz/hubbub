@@ -10,6 +10,9 @@
 # default HSQL database files for production mode
 /prodDb.*
 
+# default HSQL database files for development mode
+/devDb*
+
 # general HSQL database files
 *Db.properties
 *Db.script
@@ -79,5 +82,9 @@ atlassian-ide-plugin.xml
 com_crashlytics_export_strings.xml
 crashlytics.properties
 crashlytics-build.properties
+
+
+# Archivos script*.class
+/script*.class
 
 # Created by .ignore support plugin (hsz.mobi)
