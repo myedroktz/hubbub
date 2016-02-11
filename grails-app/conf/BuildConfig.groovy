@@ -82,9 +82,10 @@ grails.project.dependency.resolution = {
 
         //test "org.seleniumhq.selenium:selenium-firefox-driver:2.31.0"
 
-        compile 'org.apache.lucene:lucene-spellchecker:2.4.1'
+        compile "org.apache.lucene:lucene-spellchecker:2.4.1"
         compile "org.apache.lucene:lucene-highlighter:2.4.1"
     }
+
 
     plugins {
         // plugins for the build system only
@@ -99,7 +100,8 @@ grails.project.dependency.resolution = {
         compile ':spring-security-core:2.0-RC2'
         compile ":spring-security-twitter:0.6.2"
         compile ":platform-core:1.0.RC5"
-
+        compile ":jms:1.3"
+        compile "org.grails.plugins:activemq:0.5"
 
 
         // plugins needed at runtime but not for compilation

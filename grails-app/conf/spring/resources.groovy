@@ -1,7 +1,18 @@
 import com.grailsinaction.MarshallerRegistrar
-import com.grailsinaction.mail.*
+//import com.grailsinaction.mail.*
+//Imports broker factories
+import org.apache.activemq.ActiveMQConnectionFactory
+import org.springframework.jms.connection.SingleConnectionFactory
+
 // Place your Spring DSL code here
 beans = {
+    jmsConnectionFactory(SingleConnectionFactory){
+        //Defines broker connection
+        targetConnectionFactory = {ActiveMQConnectionFactory cf ->
+            //Configures broker endpoint
+            brokerURL = "tcp://localhost:61616"
+        }
+    }
 
 /*  DECLARES REGISTRAR AS SPRING BEAN
     This short bit of code guarantees that all your custom marshalers will be registered
@@ -26,8 +37,5 @@ beans = {
             client = ref("mailClient")
         }
     }*/
-
-
-
 
 }
