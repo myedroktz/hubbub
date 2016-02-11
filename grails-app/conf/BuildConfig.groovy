@@ -102,6 +102,7 @@ grails.project.dependency.resolution = {
         compile ":platform-core:1.0.RC5"
         compile ":jms:1.3"
         compile "org.grails.plugins:activemq:0.5"
+        compile":quartz:1.0.1"
 
 
         // plugins needed at runtime but not for compilation
