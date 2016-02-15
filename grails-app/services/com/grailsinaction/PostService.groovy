@@ -37,6 +37,9 @@ class PostService {
                         message: "Reply-to user not found", post: post)
                 }
             }
+
+            event 'onNewPost', post //Raises new event
+            return post
         }
 
         throw new PostException(message: "Invalid User Id")

@@ -7,7 +7,7 @@ class Post {
     String content
     Date dateCreated
 
-    static constbraints = {
+    static constraints = {
         content blank: false
     }
     static belongsTo = [user : User] // Points to the owning object
